@@ -1,0 +1,276 @@
+
+body {
+    margin: 0px;
+} 
+.navbar {
+    position: fixed;
+    text-align: center;
+    box-shadow: 0px  5px  rgba(102, 73, 73, 0.116);
+}
+.att {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+}
+#address {
+    height: 200px;
+    width: auto;
+}
+#ma {
+    height: 200px;
+    border: black solid;
+}
+.nn {
+    width: 100%;
+}
+nav ul li a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav img {
+    width: 70px;
+    height: 55px;
+}
+.navbar-brand {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1.3px red;
+}
+nav ul li a  {
+    padding: 10px;
+}
+.nav-link:hover {
+     background-color: rgba(214, 206, 206, 0.219);
+     transition: 1s;
+     border-radius: 10px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.swiper-slide img {
+    opacity: 0.3;
+}
+#navbr {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 100px;
+    background-image: linear-gradient(#a5ecd7,#f8efd4);
+}
+.swp img  {
+    height: 450px;
+    width: 100%;
+}
+.login ul li a {
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #ffffdd;
+    color: black;
+}
+.top-section {
+    width: 100%;
+}
+#social {
+    text-align: center;
+    position: fixed;
+    top: 30%;
+    left: 0%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+#social a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 22px;
+    font-family: monospace;
+    margin: 2px;
+    border-radius: 0px 50px 50px 0px;
+    transform: translate(-130px , 0px);
+}
+#social a:hover {
+     color: white;
+     transform: translate(0px , 0px);
+     transition: all 1s;
+}
+.facebook {
+    background-color: #2C80D3;
+    color: #fff;
+}
+.youtube {
+    background-color: #fa0910;
+    color: #fff;
+}
+#social a i {
+    margin-left: 15px;
+    background-color: #fff;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 1s;
+}
+#social a i.fa-youtube {
+    color: #fa0910;
+    margin-left: 30px;
+}
+#social a i.fa-facebook-official {
+    color: #2C80D3;
+}
+#social a i:hover {
+    transform: rotate(360deg);
+}
+marquee {
+    color: #fff;
+    font-family: cursive;
+    background-image: linear-gradient(#132743,#0278ae );
+}
+#home {
+    background-color: rgba(214, 206, 206, 0.219);
+}
+
+
+
+
+
+@media only screen and (max-width:1000px) {
+    .login {
+        width: 100%;
+    }
+    .login ul li a {
+        width: 60%;
+        display: inline-block;
+    }
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+    .top-section {
+        width: 100%;
+    }
+    .navbar-brand {
+        font-size: smaller;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: 1px 1px red;
+    }
+    .swp img {
+        height: 300px;
+        width: 100%;  
+    }
+    .swiper-container {
+        width: 100%;
+        height: 300px;
+    }
+    nav ul li a {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.2rem;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+    
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+    
+}
+#social {
+    text-align: center;
+    position: fixed;    
+    top: 50%;
+    left: 0%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+#social a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 2px;
+    border-radius: 0px 50px 50px 0px;
+    transform: translate(-150px , 0px);
+}
+#social a:hover {
+     color: white;
+     transform: translate(0px , 0px);
+     transition: all 1s;
+}
+.facebook {
+    background-color: #2C80D3;
+    color: #fff;
+}
+.youtube {
+    background-color: #fa0910;
+    color: #fff;
+}
+.whatsapp {
+    background-color: green;
+    color: #fff;
+}
+#social a i {
+    margin-left: 40px;
+    background-color: #fff;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    transition: all 1s;
+}
+#social a i.fa-youtube {
+    color: #fa0910;
+    margin-left: 50px;
+}
+#social a i.fa-facebook-official {
+    color: #2C80D3;
+}
+#social a i.fa-whatsapp {
+    color: green;
+    margin-left: 40px;
+}
+#social a i:hover {
+    transform: rotate(360deg);
+}
+
+
+
